@@ -1,9 +1,9 @@
 <template>
-  <h1>Dashboard</h1>
+  <h1>Mailling</h1>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'MaillingPage'
 }
 </script>
