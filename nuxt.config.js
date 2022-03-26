@@ -20,6 +20,9 @@ export default {
   css: [
     '~assets/css/reset.css',
     '~assets/css/main.css',
+    '~assets/scss/sidebar.scss',
+    '~assets/scss/header.scss',
+    '~assets/scss/onboard.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -46,8 +49,6 @@ export default {
     scss: [
       '~assets/scss/variables.scss',
       '~assets/scss/mixins.scss',
-      '~assets/scss/header.scss',
-      '~assets/scss/sidebar.scss',
     ]
   }
 }

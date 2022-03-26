@@ -1,0 +1,57 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #2D3748;
+    width: 75vw;
+    height: 100vh;
+    position: absolute;
+
+    // left: -100vw;
+    // transition: .25s ease-in-out;
+
+    &--active {
+        left: 0;
+    }
+
+    &__logo {
+        width: 100px;
+        align-self: center;
+        padding: 15px;
+    }
+
+    &__link::before {
+        content: '\e900';
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        position: absolute;
+        left: 24px;
+    }
+
+    &__link {
+        height: 64px;
+        color: #95999C;
+        padding-left: 64px;
+        display: flex;
+        align-items: center;
+
+        &--active {
+            color: #ffffff;
+            padding-left: 56px;
+            border-left: 8px solid #ffffff;
+        }
+
+        &--home::before {
+            content: '\e902';
+        }
+
+        &--mailling::before {
+            content: '\e903';
+        }
+
+        &--create-client::before {
+            content: '\e900';
+        }
+    }
+
+}
