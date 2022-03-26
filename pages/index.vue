@@ -10,9 +10,7 @@
         <Sidebar />
     </section>
     <section class="section__onboard">
-        <div>
-            <span>Onboard</span>
-        </div>
+        <Mailling />
     </section>
 </div>
 </template>
@@ -22,4 +20,3 @@ export default {
   name: 'IndexPage'
 }
 </script>
-

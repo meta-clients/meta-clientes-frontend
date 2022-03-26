@@ -1,0 +1,49 @@
+.mailling {
+    padding: 10px;
+    height: 100vh;
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 0.5rem;
+    }
+
+    .card__client {
+        border-radius: 20px;
+        background-color: #F7FAFC;
+        color: #2A4365;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: auto 1fr;
+        margin-top: 15px;
+        padding: 1rem;
+
+        &__data {
+            &--name {
+                font-size: 1.2rem;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+            &--email {
+                color: #A0AEC0;
+            }
+        }
+
+        &--gen {
+            font-size: 12px;
+            font-weight: 700;
+            justify-self: center;
+        }
+
+        &--birth {
+            align-self: center;
+        }
+
+        &__btn {
+            background-color: #2A4365;
+            padding: 5px;
+            color: #fff;
+            border-radius: 50px;
+        }
+    }
+}

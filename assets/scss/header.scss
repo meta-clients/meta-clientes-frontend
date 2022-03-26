@@ -4,11 +4,11 @@
   align-items: center;
   background-color: #2D3748;
   padding: 8px 16px;
-  box-shadow: 4px 4px rgba(0, 0, 0, 0.16);
 
   &__menu i::before {
       content: '\e904';
       font-size: 24px;
+      color: #ffffff;
   }
 
   &__logo {
