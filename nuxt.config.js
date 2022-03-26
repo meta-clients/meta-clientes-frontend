@@ -44,8 +44,10 @@ export default {
 
   styleResources: {
     scss: [
+      '~assets/scss/variables.scss',
       '~assets/scss/mixins.scss',
-      '~assets/scss/variables.scss'
+      '~assets/scss/header.scss',
+      '~assets/scss/sidebar.scss',
     ]
   }
 }

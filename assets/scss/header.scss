@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2D3748;
+  padding: 8px 16px;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.16);
+
+  &__menu i::before {
+      content: '\e904';
+      font-size: 24px;
+  }
+
+  &__logo {
+      width: 40px;
+  }
+
+  &__profile--name {
+      display: none;
+  }
+
+  &__profile--btn::after {
+      content: "\e90d";
+      color: #ffffff;
+      font-size: 24px;
+  }
+}
