@@ -1,5 +1,6 @@
 <template>
-<div class="page__wrapper">
+  <div>
+    <div class="page__wrapper">
     <header class="header">
         <button class="header__menu" aria-label="Menu"><i></i></button>
         <img src="../assets/images/logo.svg" alt="Logo da Meta Clientes" class="header__logo">
@@ -10,13 +11,18 @@
         <Sidebar />
     </section>
     <section class="section__onboard">
-        <Mailling />
+        <Nuxt />
     </section>
-</div>
+  </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+
 }
 </script>
+
+<style>
+
+</style>
