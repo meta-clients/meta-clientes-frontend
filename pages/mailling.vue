@@ -1,6 +1,9 @@
 <template>
   <main class="mailling">
-        <h2 class="mailling__title">Mailling</h2>
+        <div class="mailling__header">
+            <h2 class="mailling__title">Mailling</h2>
+            <button class="mailling__create">+ Criar</button>
+        </div>
         <NuxtChild />
   </main>
 </template>

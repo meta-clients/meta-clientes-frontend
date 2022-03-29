@@ -2,10 +2,25 @@
     padding: 10px;
     height: 100vh;
 
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
     &__title {
         font-size: 2rem;
         font-weight: 700;
         padding: 0.5rem;
+    }
+
+    &__create {
+        background-color: #2A4365;
+        padding: 15px;
+        color: #fff;
+        border-radius: 10px;
+
+        font-weight: bold;
+        font-size: 19px;
     }
 
     .card__client {

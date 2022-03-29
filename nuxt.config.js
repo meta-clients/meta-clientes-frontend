@@ -22,7 +22,8 @@ export default {
     '~assets/css/main.css',
     '~assets/scss/sidebar.scss',
     '~assets/scss/header.scss',
-    '~assets/scss/onboard.scss',
+    '~assets/scss/mailling.scss',
+    '~assets/scss/clients.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
