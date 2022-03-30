@@ -24,6 +24,7 @@ export default {
     '~assets/scss/header.scss',
     '~assets/scss/mailling.scss',
     '~assets/scss/clients.scss',
+    '~assets/scss/form.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

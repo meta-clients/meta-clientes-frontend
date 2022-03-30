@@ -2,7 +2,11 @@
   <main class="mailling">
         <div class="mailling__header">
             <h2 class="mailling__title">Mailling</h2>
-            <button class="mailling__create">+ Criar</button>
+            <button class="mailling__create">
+              <NuxtLink to="/clientes/create">
+                +Criar
+              </NuxtLink>
+            </button>
         </div>
         <NuxtChild />
   </main>

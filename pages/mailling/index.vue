@@ -6,11 +6,18 @@
       </div>
       <span class="card__client--gen">Gênero: Não binária(o)</span>
       <span class="card__client--birth">Aniversário: 22/05/2005</span>
-      <button class="card__client__btn">
-        <NuxtLink to="/clientes/update">
-          Editar
-        </NuxtLink>
-      </button>
+      <div class="card__client__btn">
+        <button class="card__client__btn--edit">
+          <NuxtLink to="/clientes/update">
+            Editar
+          </NuxtLink>
+        </button>
+        <button class="card__client__btn--del">
+          <NuxtLink to="/clientes/delete">
+            Excluir
+          </NuxtLink>
+        </button>
+      </div>
   </article>
 </template>
 
