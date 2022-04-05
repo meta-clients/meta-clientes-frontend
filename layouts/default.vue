@@ -3,7 +3,7 @@
     <div class="page__wrapper">
       <section class="section__header">
         <header class="header">
-          <button class="header__menu" aria-label="Menu"><i></i></button>
+          <button class="header__menu" aria-label="Menu" v-on:click="showMenu"><i></i></button>
           <img src="../assets/images/logo.svg" alt="Logo da Meta Clientes" class="header__logo">
           <span class="header__profile--name">Josias Fernandes</span>
           <button class="header__profile--btn" aria-label="Menu do usuário"><i></i></button>
@@ -21,7 +21,12 @@
 
 <script>
 export default {
-
+    methods: {
+        showMenu: function(event) {
+            var sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('sidebar--active')
+        }
+    }
 }
 </script>
 

@@ -1,9 +1,7 @@
 <template>
     <section class="clients">
-        <h2 class="clients__title">Clientes</h2>
-        <form action="post">
-            <NuxtChild />
-        </form>
+        <h2 class="clients__title">Cadastro de clientes</h2>
+        <NuxtChild />
     </section>
 </template>
 
